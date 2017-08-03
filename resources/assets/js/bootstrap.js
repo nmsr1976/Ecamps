@@ -10,7 +10,10 @@ window._ = require('lodash');
 try {
     window.$ = window.jQuery = require('jquery');
 
-    require('bootstrap-sass');
+/** removido pelo Jacurtis - DevMarketer
+ * Estamos a dizer que não vamos utilizar a library bootstrap-sass.
+     require('bootstrap-sass');
+*/
 } catch (e) {}
 
 /**
